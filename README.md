@@ -5,7 +5,7 @@ In this project, we used the Test Driven approach by doing first the tests and t
 
 2 - open your terminal and clone the project running 
 
-`https://github.com/shadabwahidullah/Test-Driven-Project.git`
+` git clone https://github.com/shadabwahidullah/Test-Driven-Project.git`
 
 3 - install all the gems running
 
@@ -14,6 +14,10 @@ In this project, we used the Test Driven approach by doing first the tests and t
 4 - to run the file  use
 
 `Ruby solver.rb`
+
+5 - To Run the tests use
+
+`rspec .`
 
 ## Authors
 
