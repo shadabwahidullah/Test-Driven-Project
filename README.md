@@ -1,22 +1,27 @@
-# Ruby Project Template
+# Test Driven Project
 
-1 - On Github, on the main page of the Gameportal repository, click the Code button and copy "Clone with HTTPS" by clicking the copy icon.
-In your terminal, enter a git clone and past the link that you copied from the repository, and press the   Enter
-(e.g. git clone https://github.com/shadabwahidullah/Ruby-project-template.git).
-
+In this project, we used the Test Driven approach by doing first the tests and then writing the code that successfully passes all the tests
 - To get a local copy up and running follow these steps.
 
-2 - open your terminal and clone the project running 
+1 - open your terminal and clone the project running 
 
-`https://github.com/shadabwahidullah/Ruby-project-template.git`
+` git clone https://github.com/shadabwahidullah/Test-Driven-Project.git`
 
-3 - install all the gems running
+2 - install all the gems running
 
 `bundle install`
 
-4 - to run the file  use
+3 - to run the file  use
 
-`Ruby morse.rb`
+`Ruby solver.rb`
+
+## Testing
+
+We use Rspec gem to test our code. 
+
+You can run those tests locally if you follow the steps above from 1 to 2, and then run:
+
+- `rspec .`
 
 ## Authors
 
@@ -24,6 +29,11 @@ In your terminal, enter a git clone and past the link that you copied from the r
 
 - GitHub: [@githubhandle](https://github.com/shadabwahidullah)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahidullah-shadab-2712031a3)
+
+👤 **Fabrizio Gomez**
+
+- GitHub: [@KatIsCoding](https://github.com/KatIsCoding)
+- LinkedIn: [Fabrizio Gomez](https://www.linkedin.com/in/fabrizio-gr)
 
 
 ## 🤝 Contributing
