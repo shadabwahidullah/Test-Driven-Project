@@ -3,21 +3,25 @@
 In this project, we used the Test Driven approach by doing first the tests and then writing the code that successfully passes all the tests
 - To get a local copy up and running follow these steps.
 
-2 - open your terminal and clone the project running 
+1 - open your terminal and clone the project running 
 
 ` git clone https://github.com/shadabwahidullah/Test-Driven-Project.git`
 
-3 - install all the gems running
+2 - install all the gems running
 
 `bundle install`
 
-4 - to run the file  use
+3 - to run the file  use
 
 `Ruby solver.rb`
 
-5 - To Run the tests use
+## Testing
 
-`rspec .`
+We use Rspec gem to test our code. 
+
+You can run those tests locally if you follow the steps above from 1 to 2, and then run:
+
+- `rspec .`
 
 ## Authors
 
