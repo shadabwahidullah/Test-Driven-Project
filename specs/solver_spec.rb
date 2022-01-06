@@ -25,32 +25,32 @@ describe Solver do
 
     context 'Test Reverse Function' do
         it 'Test for non empty string' do
-            expect(@i_solver.reverse("Hello")).to be 'olleH'
+            expect(@i_solver.reverse("Hello")).to eq ('olleH')
         end
         it 'Test for empty string' do
-            expect(@i_solver.reverse("")).to be ''
+            expect(@i_solver.reverse("")).to eq ('')
         end
     end
 
     context 'Test FizzBuzz Function' do 
         it 'Test for numbers only divisible by 3' do
-            expect(@i_solver.fizzbuzz(9)).to be 'fizz'
-            expect(@i_solver.fizzbuzz(96)).to be 'fizz'
+            expect(@i_solver.fizzbuzz(9)).to eq ('fizz')
+            expect(@i_solver.fizzbuzz(96)).to eq ('fizz')
         end
 
         it 'Test for numbers only divisible by 5' do
-            expect(@i_solver.fizzbuzz(5)).to be 'buzz'
-            expect(@i_solver.fizzbuzz(50)).to be 'buzz'
+            expect(@i_solver.fizzbuzz(5)).to eq ('buzz')
+            expect(@i_solver.fizzbuzz(50)).to eq ('buzz')
         end
 
         it 'Test for numbers that are divisible by both 3 and 5' do
-            expect(@i_solver.fizzbuzz(15)).to be 'fizzbuzz'
-            expect(@i_solver.fizzbuzz(60)).to be 'fizzbuzz'
+            expect(@i_solver.fizzbuzz(15)).to eq ('fizzbuzz')
+            expect(@i_solver.fizzbuzz(60)).to eq ('fizzbuzz')
         end
 
         it 'Test for numbers that are not divisible by either 3 or 5' do
-            expect(@i_solver.fizzbuzz(7)).to be '7'
-            expect(@i_solver.fizzbuzz(14)).to be '14'
+            expect(@i_solver.fizzbuzz(7)).to eq ('7')
+            expect(@i_solver.fizzbuzz(14)).to eq ('14')
         end
 
     end
