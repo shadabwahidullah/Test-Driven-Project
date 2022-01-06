@@ -20,11 +20,11 @@ class Solver
   def fizzbuzz(input)
     d_by_five = input % 5
     d_by_three = input % 3
-    if d_by_three === 0 && d_by_five.zero?
+    if d_by_three.zero? && d_by_five.zero?
       'fizzbuzz'
-    elsif d_by_five === 0
+    elsif d_by_five.zero?
       'buzz'
-    elsif d_by_three === 0
+    elsif d_by_three.zero?
       'fizz'
     else
       input.to_s
