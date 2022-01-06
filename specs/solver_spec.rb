@@ -19,7 +19,7 @@ describe Solver do
             expect(@i_solver.factorial(0)).to eq (1)
         end
         it 'Factorial fucntion receives a negative number' do
-            expect(@i_solver.factorial(-1)).to raise_error
+            expect { @i_solver.factorial(-1) }.to raise_error("Error, only integers bigger than 0 are permitted")
         end
     end
 
