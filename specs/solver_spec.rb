@@ -22,4 +22,13 @@ describe Solver do
             expect(@i_solver.factorial(-1)).to raise_error
         end
     end
+
+    context 'Test Reverse Function' do
+        it 'Test for non empty string' do
+            expect(@i_solver.reverse("Hello")).to be 'olleH'
+        end
+        it 'Test for empty string' do
+            expect(@i_solver.reverse("")).to be ''
+        end
+    end
 end
