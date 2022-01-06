@@ -31,4 +31,27 @@ describe Solver do
             expect(@i_solver.reverse("")).to be ''
         end
     end
+
+    context 'Test FizzBuzz Function' do 
+        it 'Test for numbers only divisible by 3' do
+            expect(@i_solver.fizzbuzz(9)).to be 'fizz'
+            expect(@i_solver.fizzbuzz(96)).to be 'fizz'
+        end
+
+        it 'Test for numbers only divisible by 5' do
+            expect(@i_solver.fizzbuzz(5)).to be 'buzz'
+            expect(@i_solver.fizzbuzz(50)).to be 'buzz'
+        end
+
+        it 'Test for numbers that are divisible by both 3 and 5' do
+            expect(@i_solver.fizzbuzz(15)).to be 'fizzbuzz'
+            expect(@i_solver.fizzbuzz(60)).to be 'fizzbuzz'
+        end
+
+        it 'Test for numbers that are not divisible by either 3 or 5' do
+            expect(@i_solver.fizzbuzz(7)).to be '7'
+            expect(@i_solver.fizzbuzz(14)).to be '14'
+        end
+
+    end
 end
