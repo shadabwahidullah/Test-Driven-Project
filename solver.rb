@@ -10,4 +10,11 @@ class Solver
       end
       return out
     end
+
+    def reverse(input) 
+      splited = input.split('')
+      reverse = ''
+      splited.each {|char| reverse = char + reverse}
+      return reverse.to_str
+    end
 end
